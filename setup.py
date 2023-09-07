@@ -11,8 +11,8 @@ BOT_TOKEN = '6618029507:AAH7_581rW1L41m7sfhmQFkDGOvAzYn49u4'
 CHANNEL_ID =  -1001656408715
 ADMIN_ID = 1889004772
 async def approve_request (chat_join: ChatJoinRequest, bot: Bot):
-   msg= f"Дорогой друг, поздравляем тебя с приобретением подписки на закрытое сообщество PROFIT.\n\nВы можете войти в канал: \n<a href='https://t.me/+ozETiWBbQI5kYTVi'>https://t.me/globalprofit</a>"
-   button = InlineKeyboardButton(text='ВСТУПИТЬ', url='https://t.me/+ozETiWBbQI5kYTVi', disable_web_page_preview=True)   
+   msg= f"Дорогой друг, поздравляем тебя с приобретением подписки на закрытое сообщество PROFIT.\n\nВы можете войти в канал: \n<a href='https://t.me/+BXEBZjIyK5cyM2Fi'>https://t.me/CryptoProfit</a>"
+   button = InlineKeyboardButton(text='ВСТУПИТЬ', url='https://t.me/+BXEBZjIyK5cyM2Fi', disable_web_page_preview=True)   
    markup = InlineKeyboardMarkup(inline_keyboard=[[button]])
 
 
